@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "tailwindcss-intersect";
+
+@plugin "tailwindcss-motion";
+
+@theme {
+  --font-Staatliches: "Staatliches", "sans-serif";
+  --font-Figtree: "Figtree", sans-serif;
+  --breakpoint-xs: 23.4375rem;
+}
