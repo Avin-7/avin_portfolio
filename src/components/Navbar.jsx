@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
         {showSmallScreenNav && (
           <div className="hidden max-lg:block min-w-full mt-3.5">
-            <div className=" text-gray-200 p-4 rounded-b-xl flex flex-col bg-zinc-950">
+            <div className=" text-gray-200 p-4 rounded-b-xl flex flex-col ">
               <a
                 href="#home"
                 className="mx-4.5 text-lg font-Staatliches tracking-wider hover:text-gray-400 transition-colors ease-in-out"
