@@ -21,12 +21,12 @@ const ProjectCard = ({ project }) => {
           <a
             href={project.url}
             target="_blank"
-            className=" text-left  
+            className=" text-left break-words
                font-Staatliches mb-2.5 text-3xl max-xl:text-2xl max-sm:text-lg flex items-center gap-1 flex-wrap text-gray-200 hover:text-gray-400 transition ease-linear"
           >
             {parse(project.name)}
             <span>
-              <SquareArrowOutUpRight className="size-[18px]" strokeWidth={2} />
+              <SquareArrowOutUpRight className="size-[18px] max-md:size-[14px]" strokeWidth={2} />
             </span>
           </a>
 
@@ -45,9 +45,9 @@ const ProjectCard = ({ project }) => {
                   strokeWidth={3}
                   className=" text-[#ff4800b6] "
                 />
-                <h1 className="font-Figtree italic font-normal tracking-wide text-gray-400 my-0.5 mx-0.5">
+                <p className="text-[16px] max-sm:text-[14px] max-xs:text-[12px] font-Figtree text-gray-400 my-0.5 mx-0.5">
                   {feature}
-                </h1>
+                </p>
               </div>
             ))}
           </div>
